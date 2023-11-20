@@ -28,10 +28,10 @@ public class CookieAuthenticate extends HttpServlet {
 			out.println("<h4> Cokkie Is Not Creted That's Why Create The Cookie Automatically<br>");
 		      Cookie e=new Cookie("username",username);
 		      Cookie f=new Cookie("password",password);
-		      Cookie g=new Cookie("Name","Rahul");
-		      Cookie r=new Cookie("City","Dhari");
-		      Cookie a=new Cookie("Enrollment","03052001105");
-		      Cookie b=new Cookie("Mobile","6353647592");
+		      Cookie g=new Cookie("Name","Ajay");
+		      Cookie r=new Cookie("City","Junagadh");
+		      Cookie a=new Cookie("Enrollment","03052001143");
+		      Cookie b=new Cookie("Mobile","7990141049");
 		      Usernamec=password;
 		      Passwordc=password;
 		      response.addCookie(e);
